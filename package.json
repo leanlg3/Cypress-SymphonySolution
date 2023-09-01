@@ -1,0 +1,18 @@
+{
+  "name": "cypress--modern-automation-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests": "npx cypress run",
+    "runTestsInDashboard": "npx cypress run --record --key 622fa33a-b791-4dcd-92a9-98a3c036de45",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2",
+    "cypress-multi-reporters": "^1.6.3",
+    "lodash": "4.17"
+  }
+}
